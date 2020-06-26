@@ -1,0 +1,28 @@
+{
+    "name": "tric/magento2-cache-improvement",
+    "description": "Magento 2 module to improve the caching",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "TRIC Solutions",
+            "email": "info@tric.dk"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TRIC\\CacheImprovement\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
