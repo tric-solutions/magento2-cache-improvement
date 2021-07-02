@@ -1,4 +1,11 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright © TRIC Solutions. All rights reserved.
+ * @license   https://www.tric.dk/TRIC-LICENSE-COMMUNITY.txt
+ * @link      https://www.tric.dk
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\Framework\Mview\View\Subscription" type="TRIC\CacheImprovement\MagentoFramework\Mview\View\Subscription" />
 </config>
